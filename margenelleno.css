@@ -1,0 +1,30 @@
+section{
+    border :1px solid red;
+    height:300px;
+}
+div{
+    border:1px solid blue;
+    /* ancho */
+    width:100px;
+}
+/* pseudoclases */
+div:nth-child(2){
+    /* margin:20px; */
+    /* arriba */
+    margin-top:20px;
+    /* izquierda */
+    margin-left:10px;
+    /* derecha */
+    margin-right:5px;
+    /* abajo */
+    margin-botton:30px;
+    padding:15px;
+}
+div:nth-child(1){
+    /* padding-top:10px;
+    padding-left:2px; */
+    /* padding:10px 20px; */
+    margin:15px 30px;
+    /* arriba  derecha abajo izquierda */
+    padding:5px 10px 20px 40px;
+}
